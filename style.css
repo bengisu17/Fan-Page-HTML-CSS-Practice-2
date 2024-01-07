@@ -22,6 +22,25 @@ header{
     
 }
 
+.header {
+    text-align: center;
+}
+
+.header > group{
+    color: black;
+}
+
+.first{
+    padding-top: 1rem; 
+    padding-left: 2rem;
+}
+
+.members{
+    display: flex;
+    padding-bottom: 2rem;
+    justify-content: center;
+}
+
 div.fixed{
     padding-top: 5rem;
 }
@@ -48,6 +67,7 @@ h2.members{
     background-color: silver;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    justify-content: center;
 }
 
 h3{
